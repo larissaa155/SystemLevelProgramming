@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/larissa/Documents/Lab 6/aziz_larissa_grade_management'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000352C, symSize: 0xD0 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000352C, symSize: 0xD0 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _createClassRoster, symObjAddr: 0xD0, symBinAddr: 0x1000035FC, symSize: 0x58 }
+  - { offsetInCU: 0x10B, offset: 0x10B, size: 0x8, addend: 0x0, symName: _inputStudentData, symObjAddr: 0x128, symBinAddr: 0x100003654, symSize: 0x29C }
+  - { offsetInCU: 0x175, offset: 0x175, size: 0x8, addend: 0x0, symName: _calculateGrades, symObjAddr: 0x3C4, symBinAddr: 0x1000038F0, symSize: 0x264 }
+  - { offsetInCU: 0x1ED, offset: 0x1ED, size: 0x8, addend: 0x0, symName: _displayStudentGrades, symObjAddr: 0x628, symBinAddr: 0x100003B54, symSize: 0x200 }
+...
