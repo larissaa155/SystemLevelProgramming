@@ -1,0 +1,190 @@
+Script started on Fri 07 Jun 2024 01:31:10 PM EDT
+]0;laziz2@gsuad.gsu.edu@snowball:~[?1034h[laziz2@gsuad.gsu.edu@snowball ~]$ cd ~/[K[K~/s[Kcsc3320
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ pwd
+/home/laziz2/csc3320
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ cp /home/fhw[Kawamdeh1/csc3320/syllabus .
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ ls
+csc3320_syllabus  hello_world.c  syllabus
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ cat syllabus
+CSC 3320 – System-Level Programming
+Summer 2024
+Course Information & Syllabus
+
+Instructor:   Faris Hawamdeh
+Office Hours: MW 1:30 pm – 3:30 pm, or by appointment
+              Room 742, 25 Park Place, 7th floor.
+              Virtual Webex Meetings by appointment
+E-mail:       fhawamdeh1@gsu.edu
+
+TAs: Bikram Sahoo bsahoo1@student.gsu.edu
+     Yusuf Adamu yadamu1@student.gsu.edu
+
+Lecture:      MW 10:55 am – 01:25 pm (All Sections)
+Lab Sessions: R 10:00 am – 11:30 am (Section 004)
+              R 01:00 pm – 02:30 pm (Section 002)
+              R 03:00 pm – 04:30 pm (Section 006)
+
+Course Description
+This course is designed to give students experience in using a high-level language (C) to interface with an
+operating system (UNIX). Students will learn fundamental UNIX concepts, including files, processes,
+inter-process communication, and shells. They will also gain experience writing and testing C programs
+using UNIX editors and programming tools.
+
+Course Outcomes
+1. Proficient in using Remote Systems through SSH and SFTP.
+2. Proficient in using UNIX/Linux Systems and Shell commands.
+3. Write C programs to solve problems.
+4. Demonstrate knowledge of process mechanisms such as pipe, fork, exec, etc...
+5. Apply structs to access directory contents and/or process data.
+
+Recommended Textbooks: (Purchase Not Required)
+1. King, C Programming: A Modern Approach, Norton, 2nd edition, 2008
+ISBN-13: 978-0393979503.
+2. Glass and Ables, Unix for Programmers and Users, Prentice Hall, Third Edition (2003)
+ISBN 0-13-046553-4.
+
+Important Dates
+First day of class   – June 3rd at 10:55 am.
+Last day to drop     – June 7th at 5 pm.
+Mid-Term Exam        – June 26th at 10:55 am.
+Last day to withdraw – June 28th at 5 pm.
+Final Exam           – July 24th at 10:45 am.]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ clear[K[K[K[K[Kmv d[Ksyllabus[K[laziz2@gsuad.gsu.edu@snowball csc3320]$ mv syllabus[K[laziz2@gsuad.gsu.edu@snowball csc3320]$ mv syllabus[K[laziz2@gsuad.gsu.edu@snowball csc3320]$ mv syllabus[K[laziz2@gsuad.gsu.edu@snowball csc3320]$ mv syllabus[K[laziz2@gsuad.gsu.edu@snowball csc3320]$ mv syllabus[K[laziz2@gsuad.gsu.edu@snowball csc3320]$ mv syllabus d[Kcsc3323[K0_syllabus
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ man wc
+[?1049h[?1h=WC(1)                                       User Commands                                      WC(1)[m
+[m
+[1mNAME[0m[m
+       wc - print newline, word, and byte counts for each file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is[m
+       specified.   With  no  FILE,  or  when  FILE  is  -,  read  standard  input.   A  word  is  a[m
+       non-zero-length  sequence  of  characters delimited by white space.  The options below may be[m
+       used to select which counts are printed, always in the following order: newline, word,  char‐[m
+       acter, byte, maximum line length.[m
+[m
+       [1m-c[0m, [1m--bytes[0m[m
+              print the byte counts[m
+[m
+       [1m-m[0m, [1m--chars[0m[m
+              print the character counts[m
+[m
+       [1m-l[0m, [1m--lines[0m[m
+              print the newline counts[m
+[m
+       [1m--files0-from[0m=[4mF[24m[m
+              read  input from the files specified by NUL-terminated names in file F; If F is - then[m
+              read names from standard input[m
+[m
+       [1m-L[0m, [1m--max-line-length[0m[m
+              print the length of the longest line[m
+[m
+       [1m-w[0m, [1m--words[0m[m
+              print the word counts[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       GNU coreutils online help:  <http://www.gnu.org/software/coreutils/>  Report  wc  translation[m
+       bugs to <http://translationproject.org/team/>[m
+[m
+[1mAUTHOR[0m[m
+       Written by Paul Rubin and David MacKenzie.[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright  ©  2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later[m
+       <http://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY,  to[m
+       the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       The full documentation for [1mwc[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mwc[0m programs[m
+       are properly installed at your site, the command[m
+[m
+              [1minfo[0m [1mcoreutils[0m [1m'wc[0m [1minvocation'[0m[m
+[m
+[7m Manual page wc(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ ls
+csc3320_syllabus  hello_world.c
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ gcc -o hellow[K_world.c [K/hello_[C[C[C[C[C[C[C[K[K[K[K[K[K[K./hello_world
+gcc: fatal error: no input files
+compilation terminated.
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ gcc -[K[K[K[K[Kgcc -o hello_world.c./hello_worldls[Kman wc[4Plsgcc -o hello_world.c./hello_world[K[K[K[K[K[K[K[K[K[K[K[K[K
+gcc: fatal error: no input files
+compilation terminated.
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ cd ..
+]0;laziz2@gsuad.gsu.edu@snowball:~[laziz2@gsuad.gsu.edu@snowball ~]$ ls
+[0m[38;5;27mcsc3320[0m  session.log
+]0;laziz2@gsuad.gsu.edu@snowball:~[laziz2@gsuad.gsu.edu@snowball ~]$ cd ~/332[K[K[Kcsc32[K320
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ ls
+csc3320_syllabus  hello_world.c
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ ..[K/helloworld.c[K[K[K[K[K[K[K_world.c
+bash: ./hello_world.c: Permission denied
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ chmo[K[K[K[Kv[Kchmod +x hello_world.c
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ chmod +x hello_world.c[7P./hello_world.c
+./hello_world.c: line 3: syntax error near unexpected token `('
+./hello_world.c: line 3: `int main() {'
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ chmod +x hello_world.c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod o+x hello_world.c
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ chmod o+x hello_world.c[8P./hello_world.c
+./hello_world.c: line 3: syntax error near unexpected token `('
+./hello_world.c: line 3: `int main() {'
+]0;laziz2@gsuad.gsu.edu@snowball:~/csc3320[laziz2@gsuad.gsu.edu@snowball csc3320]$ vim hello_world.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;59r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[59;1HE325: ATTENTION
+Found a swap file by the name ".hello_world.c.swp"
+[10Cowned by: laziz2@gsuad.gsu.edu   dated: Fri Jun  7 02:18:27 2024
+[9Cfile name: ~laziz2@gsuad.gsu.edu/csc3320/hello_world.c
+[10Cmodified: YES
+[9Cuser name: laziz2@gsuad.gsu.edu   host name: snowball.cs.gsu.edu
+[8Cprocess ID: 17440
+While opening file "hello_world.c"
+[13Cdated: Thu Jun  6 16:36:14 2024
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r hello_world.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".hello_world.c.swp"
+    to avoid this message.
+
+Swap file ".hello_world.c.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort:[?12l[?25h[59;1H[K[?25l[59;1H"hello_world.c" 7L, 78C[>c[27m[m[H[2J[1;1H[38;5;81m#include[m[95m<studio.h>[m
+
+[38;5;121mint[m main() {
+   printf([95m"Hello World![m[38;5;224m\n[m[95m"[m);
+   [93mreturn[m [95m0[m;
+}
+
+[94m~                                                                                                      [9;1H~                                                                                                      [10;1H~                                                                                                      [11;1H~                                                                                                      [12;1H~                                                                                                      [13;1H~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [32;1H~                                                                                                      [33;1H~                                                                                                      [34;1H~                                                                                                      [35;1H~                                                                                                      [36;1H~                                                                                                      [37;1H~                                                                                                      [38;1H~                                                                                                      [39;1H~                                                                                                      [40;1H~                                                                                                      [41;1H~                                                                                                      [42;1H~                                                                                                      [43;1H~                                                                                                      [44;1H~                                                                                                      [45;1H~                                                                                                      [46;1H~                                                                                                      [47;1H~                                                                                                      [48;1H~                                                                                                      [49;1H~                                                                                                      [50;1H~                                                                                                      [51;1H~                                                                                                      [52;1H~                                                                                                      [53;1H~                                                                                                      [54;1H~                                                                                                      [55;1H~                                                                                                      [56;1H~                                                                                                      [57;1H~                                                                                                      [58;1H~                                                                                                      [m[59;86H7,0-1[9CAll[7;1H[?12l[?25h[?25l[3;12H[46m{
+
+
+}[m[59;86H6,1  [6;1H[?12l[?25h[?25l[3;12H{
+
+
+}[59;86H5[5;1H[?12l[?25h[?25l[59;86H4[4;1H[?12l[?25h[?25l[59;86H3[3;1H[?12l[?25h[?25l[59;86H2,0-1[2;1H[?12l[?25h[?25l[59;86H1,1  [1;1H[?12l[?25h[?25l[59;88H2[1;2H[?12l[?25h[?25l[59;88H3[1;3H[?12l[?25h[?25l[59;88H4[1;4H[?12l[?25h[?25l[59;88H5[1;5H[?12l[?25h[?25l[59;88H6[1;6H[?12l[?25h[?25l[59;88H7[1;7H[?12l[?25h[?25l[59;88H8[1;8H[?12l[?25h[?25l[59;88H9[1;9H[?12l[?25h[?25l[59;88H10[1;10H[?12l[?25h[?25l[59;89H1[1;11H[?12l[?25h[?25l[59;89H2[1;12H[?12l[?25h[?25l[59;89H1[1;11H[?12l[?25h[?25l[59;89H2[1;12H[?12l[?25h[?25l[59;89H3[1;13H[?12l[?25h[?25l[59;89H4[1;14H[?12l[?25h[?25l[59;89H5[1;15H[?12l[?25h[?25l[59;89H6[1;16H[?12l[?25h[?25l[59;89H7[1;17H[?12l[?25h[?25l[59;89H6[1;16H[?12l[?25h[?25l[59;89H5[1;15H[?12l[?25h[?25l[59;89H6[1;16H[?12l[?25h[?25l[59;89H7[1;17H[?12l[?25h[?25l[59;89H8[1;18H[?12l[?25h[?25l[59;89H7[1;17H[?12l[?25h[?25l[59;89H6[1;16H[?12l[?25h[?25l[59;89H5[1;15H[?12l[?25h[?25l[59;89H4[1;14H[?12l[?25h[?25l[59;89H3[1;13H[?12l[?25h[?25l[59;89H2[1;12H[?12l[?25h[?25l[59;89H1[1;11H[?12l[?25h[?25l[59;89H2[1;12H[?12l[?25h[?25l[59;89H3[1;13H[?12l[?25h[?25l[59;89H4[1;14H[?12l[?25h[?25l[59;89H5[1;15H[?12l[?25h[?25l[59;89H6[1;16H[?12l[?25h[?25l[59;89H7[1;17H[?12l[?25h[?25l[59;89H8[1;18H[?12l[?25h[?25l[59;89H7[1;17H[?12l[?25h[?25l[59;89H8[1;18H[?12l[?25h[?25l[59;86H2,0-1[2;1H[?12l[?25h[?25l[59;1H/\<includ\>[59;86H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H2,0-1[9CAll[2;1H[?12l[?25h[?25l[59;1H/\<includ\>[59;12H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H2,0-1[9CAll[2;1H[?12l[?25h[?25l[59;86H3,1  [3;1H[?12l[?25h[?25l[59;1H/\<includ\>[59;12H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H3,1[11CAll[3;1H[?12l[?25h[?25l[59;86H4[4;1H[?12l[?25h[?25l[59;86H3[3;1H[?12l[?25h[?25l[59;1H/\<includ\>[59;12H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H3,1[11CAll[3;1H[?12l[?25h[?25l[59;1H/\<includ\>[59;12H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H3,1[11CAll[3;1H[?12l[?25h[?25l[59;1H/\<includ\>[59;12H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H3,1[11CAll[3;1H[?12l[?25h[?25l[59;88H2[3;2H[?12l[?25h[?25l[59;1H/\<includ\>[59;12H[K[59;1H[38;5;224msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: \<includ\>[m[59;36H[K[59;86H3,2[11CAll[3;2H[?12l[?25h[?25l[59;86H4[4;2H[?12l[?25h[?25l[59;86H5[5;2H[?12l[?25h[?25l[3;12H[46m{
+
+
+}[m[59;86H6,1[6;1H[?12l[?25h[?25l[3;12H{
+
+
+}[59;86H7,0-1[7;1H[?12l[?25h[?25l[59;1H[1m-- INSERT --[m[59;13H[K[59;86H7,1[11CAll[7;1H[?12l[?25h[?25lf[59;88H2[7;2H[?12l[?25h[?25lv[59;88H3[7;3H[?12l[?25h[?25ld[59;88H4[7;4H[?12l[?25h[?25lg[59;88H5[7;5H[?12l[?25h[?25l[7;4H[K[59;88H4[7;4H[?12l[?25h[?25l[7;3H[K[59;88H3[7;3H[?12l[?25h[?25l[7;2H[K[59;88H2[7;2H[?12l[?25h[?25l[7;1H[K[59;88H1[7;1H[?12l[?25h[?25l[3;12H[46m{
+
+
+}[m[59;86H6[6;1H[?12l[?25h[?25l[3;12H{
+
+
+}[59;86H5[5;1H[?12l[?25h[?25l[59;86H4[4;1H[?12l[?25h[?25l[59;86H3[3;1H[?12l[?25h[?25l[59;86H2[2;1H[?12l[?25h[?25l[59;86H1[1;1H[?12l[?25h[?25l[59;88H2[1;2H[?12l[?25h[?25l[59;88H3[1;3H[?12l[?25h[?25l[59;88H4[1;4H[?12l[?25h[?25l[59;88H5[1;5H[?12l[?25h[?25l[59;88H6[1;6H[?12l[?25h[?25l[59;88H7[1;7H[?12l[?25h[?25l[59;86H2,1[2;1H[?12l[?25h[?25l[59;86H3,7[3;7H[?12l[?25h[?25l[59;86H4[4;7H[?12l[?25h[?25l[59;86H5[5;7H[?12l[?25h[?25l[3;12H[46m{
+
+
+}[m[59;86H6,2[6;2H[?12l[?25h[?25l[3;12H{
+
+
+}[59;86H7,1[7;1H[?12l[?25h[?25l[94m~                                                                                                      [m[3;12H[46m{
+
+
+}[m[59;86H6,2[6;2H[?12l[?25h[?25l[6;1H[K[3;12H{[59;88H1[6;1H[?12l[?25h[?25l[94m~                                                                                                      [m[59;86H5,13[5;13H[?12l[?25h[?25l[5;12H[K[59;89H2[5;12H[?12l[?25h[?25l[5;11H[K[59;89H1[5;11H[?12l[?25h[?25l[59;89H0[5;10H[?12l[?25h[?25l   retur[5;9H[K[59;88H9 [5;9H[?12l[?25h[?25l[5;8H[K[59;88H8[5;8H[?12l[?25h[?25l[5;7H[K[59;88H7[5;7H[?12l[?25h[?25l[5;6H[K[59;88H6[5;6H[?12l[?25h[?25l[5;5H[K[59;88H5[5;5H[?12l[?25h[?25l[5;4H[K[59;88H4[5;4H[?12l[?25h[?25l[59;88H3[5;3H[?12l[?25h[?25l[59;88H2[5;2H[?12l[?25h[?25l[59;88H1[5;1H[?12l[?25h[?25l[94m~                                                                                                      [m[59;86H4,29[4;29H[?12l[?25h[?25l[4;28H[K[4;10H[46m([16C)[m[59;89H8[4;28H[?12l[?25h[?25l[4;27H[K[4;10H([59;89H7[4;27H[?12l[?25h[?25l[4;26H[K[59;89H6[4;26H[?12l[?25h[?25l[4;25H[K[59;89H5[4;25H[?12l[?25h[?25l[4;24H[K[59;89H4[4;24H[?12l[?25h[?25l[4;23H[K[59;89H3[4;23H[?12l[?25h[?25l[4;22H[K[59;89H2[4;22H[?12l[?25h[?25l[4;21H[K[59;89H1[4;21H[?12l[?25h[?25l[4;20H[K[59;89H0[4;20H[?12l[?25h[?25l[4;19H[K[59;88H19[4;19H[?12l[?25h[?25l[4;18H[K[59;89H8[4;18H[?12l[?25h[?25l[4;17H[K[59;89H7[4;17H[?12l[?25h[?25l[4;16H[K[59;89H6[4;16H[?12l[?25h[?25l[4;15H[K[59;89H5[4;15H[?12l[?25h[?25l[4;14H[K[59;89H4[4;14H[?12l[?25h[?25l[4;13H[K[59;89H3[4;13H[?12l[?25h[?25l[4;12H[K[59;89H2[4;12H[?12l[?25h[?25l[4;11H[K[59;89H1[4;11H[?12l[?25h[?25l[4;10H[K[59;89H0[4;10H[?12l[?25h[?25l[4;9H[K[59;88H9 [4;9H[?12l[?25h[?25l[4;8H[K[59;88H8[4;8H[?12l[?25h[?25l[4;7H[K[59;88H7[4;7H[?12l[?25h[?25l[4;6H[K[59;88H6[4;6H[?12l[?25h[?25l[4;5H[K[59;88H5[4;5H[?12l[?25h[?25l[3;8H[K[4;1H[94m~                                                                                                      [m[59;86H3,8[3;8H[?12l[?25h[?25l[3;7H[K[59;88H7[3;7H[?12l[?25h[?25l[3;5H[K[59;88H5[3;5H[?12l[?25h[?25l[59;88H4[3;4H[?12l[?25h[?25lin[3;3H[K[59;88H3[3;3H[?12l[?25h[?25l[3;2H[K[59;88H2[3;2H[?12l[?25h[?25l[3;1H[K[59;88H1[3;1H[?12l[?25h[?25l[94m~                                                                                                      [m[59;86H2[2;1H[?12l[?25h[?25l[94m~                                                                                                      [m[59;86H1,19[1;19H[?12l[?25h[?25l[1;9H[38;5;81m<[mstudio.h[1;18H[K[59;89H8[1;18H[?12l[?25h[?25l[1;17H[K[59;89H7[1;17H[?12l[?25h[?25l[1;16H[K[59;89H6[1;16H[?12l[?25h[?25l[1;15H[K[59;89H5[1;15H[?12l[?25h[?25l[1;14H[K[59;89H4[1;14H[?12l[?25h[?25l[1;13H[K[59;89H3[1;13H[?12l[?25h[?25l[1;12H[K[59;89H2[1;12H[?12l[?25h[?25ld[59;89H3[1;13H[?12l[?25h[?25li[59;89H4[1;14H[?12l[?25h[?25lo[59;89H5[1;15H[?12l[?25h[?25l[1;14H[K[59;89H4[1;14H[?12l[?25h[?25l[1;13H[K[59;89H3[1;13H[?12l[?25h[?25li[59;89H4[1;14H[?12l[?25h[?25lo[59;89H5[1;15H[?12l[?25h[?25l.[59;89H6[1;16H[?12l[?25h[?25lh[59;89H7[1;17H[?12l[?25h[?25l[1;9H[95m<stdio.h>[m[59;89H8[1;18H[?12l[?25h[?25l[2;1H[K[59;86H2,1 [2;1H[?12l[?25h[?25l[3;1H[K[59;86H3[3;1H[?12l[?25h[?25li[59;88H2[3;2H[?12l[?25h[?25ln[59;88H3[3;3H[?12l[?25h[?25l[38;5;121mint[m[59;88H4[3;4H[?12l[?25h[?25l[59;88H5[3;5H[?12l[?25h[?25lm[59;88H6[3;6H[?12l[?25h[?25la[59;88H7[3;7H[?12l[?25h[?25li[59;88H8[3;8H[?12l[?25h[?25ln[59;88H9[3;9H[?12l[?25h[?25l([59;88H10[3;10H[?12l[?25h[?25l)[46m()[m[59;89H1[3;11H[?12l[?25h[?25l()[59;89H2[3;12H[?12l[?25h[?25l{[59;89H3[3;13H[?12l[?25h[?25l[4;1H[K[59;86H4,1 [4;1H[?12l[?25h[?25l[59;88H2[4;2H[?12l[?25h[?25l[59;88H3[4;3H[?12l[?25h[?25l[59;88H4[4;4H[?12l[?25h[?25lp[59;88H5[4;5H[?12l[?25h[?25lr[59;88H6[4;6H[?12l[?25h[?25li[59;88H7[4;7H[?12l[?25h[?25ln[59;88H8[4;8H[?12l[?25h[?25lt[59;88H9[4;9H[?12l[?25h[?25lf[59;88H10[4;10H[?12l[?25h[?25l([59;89H1[4;11H[?12l[?25h[?25l[95m"[m[59;89H2[4;12H[?12l[?25h[?25l[95mH[m[59;89H3[4;13H[?12l[?25h[?25l[95me[m[59;89H4[4;14H[?12l[?25h[?25l[95ml[m[59;89H5[4;15H[?12l[?25h[?25l[95ml[m[59;89H6[4;16H[?12l[?25h[?25l[95m0[m[59;89H7[4;17H[?12l[?25h[?25l[4;16H[K[59;89H6[4;16H[?12l[?25h[?25l[95mo[m[59;89H7[4;17H[?12l[?25h[?25l[95m [m[59;89H8[4;18H[?12l[?25h[?25l[95mW[m[59;89H9[4;19H[?12l[?25h[?25l[95mo[m[59;88H20[4;20H[?12l[?25h[?25l[95mr[m[59;89H1[4;21H[?12l[?25h[?25l[95ml[m[59;89H2[4;22H[?12l[?25h[?25l[95md[m[59;89H3[4;23H[?12l[?25h[?25l[95m![m[59;89H4[4;24H[?12l[?25h[?25l[95m|[m[59;89H5[4;25H[?12l[?25h[?25l[4;24H[K[59;89H4[4;24H[?12l[?25h[?25l[38;5;224m\[m[59;89H5[4;25H[?12l[?25h[?25l[38;5;224mn[m[59;
